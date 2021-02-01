@@ -2,6 +2,7 @@ body { background-color: #B50928;
   opacity: 50%;
   font-family: "serif", "garamound";
   text-decoration-color: white;
+  text-align: left;
 }
 
 /* The sidebar menu */
