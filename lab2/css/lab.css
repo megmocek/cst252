@@ -9,6 +9,7 @@ p {
 }
 
 #content {
+  position: relative;
   color: white;
   background-color: #B50928;
   width: 800px;
@@ -16,7 +17,7 @@ p {
   padding: 15px;
   margin: 10px;
   border: solid 5px black;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 #site {
