@@ -9,7 +9,8 @@ p {
 }
 
 #content {
-  position: relative;
+  float: center;
+  text-align: center;
   color: white;
   background-color: #B50928;
   width: 800px;
