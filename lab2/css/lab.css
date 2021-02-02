@@ -14,11 +14,11 @@ p {
   min-height: 400px;
   padding: 15px;
   margin: 10px;
-  border: dotted 5px black;
+  border: lined 5px black;
   font-size: 30px;
 }
 
 #site {
   background-image: linear-gradient(white,black);
-  min-height: 500px
+  min-height: 500px;
 }
