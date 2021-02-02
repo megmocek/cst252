@@ -9,12 +9,13 @@ p {
 }
 
 #content {
+  color: white;
   background-color: #B50928;
   width: 800px;
   min-height: 400px;
   padding: 15px;
   margin: 10px;
-  border: lined 5px black;
+  border: solid 5px black;
   font-size: 30px;
 }
 
