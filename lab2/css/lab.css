@@ -19,8 +19,3 @@ p {
   border: solid 5px black;
   font-size: 20px;
 }
-
-#site {
-  background-image: linear-gradient(white,black);
-  min-height: 500px;
-}
