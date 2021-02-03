@@ -1,0 +1,26 @@
+body {
+  background-color: #871227;
+
+}
+
+h1 {
+  color: white;
+  font-size: 200%;}
+
+p {
+  font-family: "serif", "garamound";
+  text-indent: 30px;
+  margin-left: 15-px;
+}
+
+.labs {
+  text-align: center;
+  color: white;
+  background-color: #B50928;
+  width: 800px;
+  min-height: 400px;
+  padding: 15px;
+  margin: 10px;
+  border: solid 5px black;
+  font-size: 20px;
+}
