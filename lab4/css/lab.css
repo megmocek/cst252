@@ -34,3 +34,7 @@ img {
   text-decoration-color: white;
   font-size: 30px;
 }
+
+img {
+  float: left;
+}
