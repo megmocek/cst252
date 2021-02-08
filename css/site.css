@@ -2,34 +2,40 @@ body {
   background-color: indianred;
 }
 
-h1 {
-  color: white;
-  font-size: 200%;}
-
-p {
-  font-family: "serif", "garamound";
-  text-indent: 30px;
-  margin-left: 15px;
-}
-
 #labs {
-  text-align: center;
-  color: white;
+  float: left;
+  padding: 25px;
   background-color: lightcoral;
-  width: 800px;
-  min-height: 400px;
-  padding: 15px;
-  margin: 10px;
-  border: solid 5px #770E4F;
-  font-size: 20px;
-}
-
-#header {
-  text-decoration-color: white;
-  font-size: 50px;
+  margin: 20px;
+  border: solid 5px;
+  border-color: red;
+  font-size: 30px;
+  text-align: left;
+  align-items; center;
+  width: 100%;
 }
 
 img {
-  float: left;
+  float: right;
+  align-content: center;
   margin: auto;
+  border: solid 5px;
+  border-bottom: solid 20px;
+}
+
+#header {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+a {color: white
+}
+
+a:hover {
+  color: grey
+}
+
+a:visited {
+  color: white
 }
