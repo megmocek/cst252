@@ -34,3 +34,10 @@ img {
   text-decoration-color: white;
   font-size: 30px;
 }
+
+img {
+  float: center;
+  align-content: center;
+  margin: 20px;
+  border: solid white 5px;
+}
