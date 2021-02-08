@@ -37,4 +37,7 @@ img {
 
 img {
   float: left;
+  align-content: center;
+  margin: 20px;
+  border: solid white 5px;
 }
