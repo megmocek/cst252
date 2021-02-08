@@ -1,0 +1,36 @@
+body {
+  background-color: indianred;
+  font-size: 20px;
+}
+
+#labs {
+  float: left;
+  padding: 25px;
+  background-color: #ffb3b3;
+  margin: 20px;
+  border: solid 5px;
+  border-color: white;
+  font-size: 30px;
+  text-align: left;
+  align-items; center;
+  width: 70%;
+}
+
+img {
+  float: right;
+  align-content: center;
+  margin: auto;
+  border: solid 5px;
+  border-bottom: solid 20px;
+}
+
+#header {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+#content {
+  text-decoration-color: white;
+  font-size: 30px;
+}
