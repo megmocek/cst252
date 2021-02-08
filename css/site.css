@@ -12,7 +12,7 @@ p {
   margin-left: 15px;
 }
 
-.labs {
+#labs {
   text-align: center;
   color: white;
   background-color: lightcoral;
@@ -22,4 +22,14 @@ p {
   margin: 10px;
   border: solid 5px #770E4F;
   font-size: 20px;
+}
+
+#header {
+  text-decoration-color: white;
+  font-size: 50px;
+}
+
+img {
+  float: left;
+  margin: auto;
 }
