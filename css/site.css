@@ -1,12 +1,12 @@
 body {
-  background-color: indianred;
+  background-color: #ffb3b3;
   font-size: 20px;
 }
 
 #labs {
   float: left;
   padding: 25px;
-  background-color: lightcoral;
+  background-color: #ff6666;
   margin: 20px;
   border: solid 5px;
   border-color: white;
