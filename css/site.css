@@ -17,6 +17,8 @@ body {
 }
 
 img {
+  height: 50%;
+  width: 50%;
   float: right;
   align-content: center;
   margin: auto;
