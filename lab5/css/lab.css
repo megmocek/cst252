@@ -35,6 +35,12 @@ img {
   font-size: 30px;
 }
 
+.java {
+  text-decoration-color: white;
+  font-size: 10px;
+  float: center;
+}
+
 img {
   float: center;
   align-content: center;
