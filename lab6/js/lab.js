@@ -12,7 +12,7 @@ myMainRide = {
   model: "Civic",
   year: 2008,
   color: "Silver",
-  extras: "Harley Quinn sticker", "Deadpool sticker", "Deadpool license plate cover"
+  extras: "Harley Quinn sticker, Deadpool sticker, Deadpool license plate cover"
 }
 
 // OutPut
