@@ -21,5 +21,5 @@ Function sortUserName() {
 }
 
 //OutPut
-document.writeln("Hey, I fixed your name: "),
-        sortUserName(), "</br>";
+document.writeln("Hey, I fixed your name: ",
+        sortUserName(), "</br>");
