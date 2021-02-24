@@ -33,7 +33,7 @@ setTimeout(function() {
   thirdThing("TEST 2");
 }, 0);
 
-//Test 3 - order in 3, 2, 1
+//Test 3 - order in 2, 3, 1
 setTimeout(function() {
   firstThing("TEST 3");
 }, 3000);
