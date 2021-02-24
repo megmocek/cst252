@@ -4,6 +4,7 @@
 // Created: Feb. 22, 2021
 // License: Public Domain
 
+//Start Wes' Code
 //sortUserName
 function sortUserName() {
   var userName = window.prompt("Hi, please tell me your name so I can fix it.");
@@ -23,3 +24,4 @@ function sortUserName() {
 //OutPut
 document.writeln("Hey, I fixed your name: ",
         sortUserName(), "</br>");
+//End Wes' Code
