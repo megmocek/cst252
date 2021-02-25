@@ -11,8 +11,10 @@ function(main) {
 
 function firstThing(test) {
     console.log(test + ":This is the first thing.<br>")
+}
 function secondThing(test) {
-        console.log(test + ":This is the second thing.<br>")
+    console.log(test + ":This is the second thing.<br>")
+}
 function thirdThing(test) {
     console.log(test + ":This is the third thing.<br>")
 }
