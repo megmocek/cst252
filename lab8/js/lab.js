@@ -4,10 +4,10 @@
 // Created: Feb. 24, 2021
 // License: Public Domain
 
-function(main) {
-  outputElement = document.getElementById("js-output");
-  outputElement.innerHTML = "Jankies";
-}
+
+//outputElement = document.getElementById("js-output");
+//outputElement.innerHTML = "Jankies";
+
 
 function firstThing(test) {
     console.log(test + ":This is the first thing.<br>")
