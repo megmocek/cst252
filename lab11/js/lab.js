@@ -9,7 +9,7 @@
 function sortingSign(str) {
   len = str.length;
   mod = len % 4;
-  
+
   if (mod == 0) {
     return "Air"
   }
@@ -24,9 +24,9 @@ function sortingSign(str) {
   }
 }
 
-var myButton = document getElementById("button");
+var myButton = document.getElementById("button");
 myButton.addEventListener("click", function() {
-  var name = document getElementById("input").value;
+  var name = document.getElementById("input").value;
   var sign = sortingSign(name);
   newText = "<p>The Zodiac Element Generator has determined that you are: " + sign + "<p>"
   document.getElementById("output").innerHTML = newText;
