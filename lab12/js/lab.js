@@ -49,7 +49,7 @@ function fizzBuzzBoom(maxNums, factorObj) {
       //Check to see if this num is a multiple of factor
       if (num % factor == 0) {
         //If yes, then add the text to output string
-        outputStr += factorObj[factor;]
+        outputStr += factorObj[factor];
       }
     }
     //Now we have words in outputStr, format it like this " - FizzBuzz!"
