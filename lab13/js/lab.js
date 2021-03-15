@@ -5,7 +5,8 @@
 // License: Public Domain
 
 //Debugging LAB 11
-//Return Air, Fire, Water, and Earth
+//Return Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, SAGITTARIUS
+//Capricorn, Aquarius, Pisces
 
 function sortingSign(str) {
 	len = str.length;
