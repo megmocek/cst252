@@ -1,0 +1,26 @@
+p, h1, h2, h3 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 35px;
+}
+
+body {
+  background-color: indianred;
+  color: white;
+}
+
+.container {
+  background-color: #ffb3b3;
+  text-decoration-color: white;
+  padding: 25px;
+  border: 15px;
+  border: solid 5px;
+  border-color: white;
+  margin: 20px;
+  color: white;
+  font-size: 25px;
+}
+
+.jumbotron text center {
+
+}
