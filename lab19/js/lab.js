@@ -4,19 +4,33 @@
 // Created: Apr. 14, 2021
 // License: Public Domain
 
-$("#btn").click(function(){
-  $.ajax({
-    url:"https://dog-api.kinduff.com/api/facts",
-    data: {},
-    type: "get",
-    dataType: "json",
-  })
-  .done(function(results){
-    console.log(results);
-    var fact = results.facts[0];
-    $("#output").html(fact);
-  })
-  .fail(function(xhr, status, errorThrown){
-    alert(errorThrown + "status" + status);
-  });
-})
+// URL = "https://www.boredapi.com/api/activity/"
+// URL = "https://api.kanye.rest/"
+// URL = "https://api.whatdoestrumpthink.com/api/v1/quotes/random"
+URL = "https://cvillecatcare.com/veterinary-topics/101-amazing-cat-facts-fun-trivia-about-your-feline-friend/"
+
+// attach click action to button
+$('#action').click(function(){
+    // get data via ajax from numbersapi
+    // Using the core $.ajax() method
+    $.ajax({
+        // The URL for the request (ENDPOINT)
+        url: URL,
+        // The data to send (will be converted to a query string)
+        // data: { id: 123},
+        // Whether this is a POST or GET request
+        type: "GET",
+        // The type of data we expect back
+        // dataType : "json",
+    })
+    // If the request succeeds
+    .done(function(data) {
+        console.log(data);
+        // put data in webpage
+        // $("#output").append("<p>" + JSON.stringify(data));
+        // $("#output").append("<p>Here's what you should do when you are bored: <b>" + data.activity);
+        // $("#output").append("<p>President-elect Kanye says: <b>" + data.quote);
+        $("#output").append("<p>The most stable smart man in the room says: <b>" + data.message);
+
+    })
+});
