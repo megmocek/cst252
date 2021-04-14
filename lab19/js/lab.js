@@ -6,8 +6,7 @@
 
 // URL = "https://www.boredapi.com/api/activity/"
 // URL = "https://api.kanye.rest/"
-// URL = "https://api.whatdoestrumpthink.com/api/v1/quotes/random"
-URL = "https://cvillecatcare.com/veterinary-topics/101-amazing-cat-facts-fun-trivia-about-your-feline-friend/"
+URL = "https://api.whatdoestrumpthink.com/api/v1/quotes/random"
 
 // attach click action to button
 $('#action').click(function(){
